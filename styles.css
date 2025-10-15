@@ -1,14 +1,37 @@
 body{
-    
+
 }
 .nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 1em;
+    background-color: olivedrab;
 }
 
 .nav a{
     display: flex;
     gap: 2rem;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+}
+
+.right-content{
+    display: flex;
+    justify-items: flex-end;
+    padding: 3em;
+    background-color: darkgrey;
+    width: 100px;
+    height: 100px;
+}
+
+.image{
+    display: flex;
+    padding: 3em;
+    background-color: darkgrey;
+    width:250px;
 }
