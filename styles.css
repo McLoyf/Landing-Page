@@ -26,14 +26,28 @@ body{
     background-color: #1F2937;
 }
 
-.right-content{
-    display: flex;
+.hero .card1{
+    background-color: red;
+    flex-flow: wrap-reverse;
+    margin: 3em 14em 6em 13em;
+}
+
+.card1 .left-content{
+    flex-direction: column;
+}
+
+.card1 .right-content{
     justify-items: flex-end;
     padding: 3em;
     background-color: darkgrey;
     width: 100px;
     height: 100px;
 }
+.card1 .bigtext{
+    font-size:48px;
+    font-weight: 900;
+}
+
 
 .image{
     display: flex;
