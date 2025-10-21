@@ -6,6 +6,7 @@ body{
     align-items: center;
     justify-content: space-around;
     padding: 1em;
+    COLOR: WHITE;
 }
 
 .nav a{
@@ -17,58 +18,42 @@ body{
 .nav a:hover{
     text-decoration: underline;
 }
-
-.hero{
+.nav{
+    background-color: #1F2937;
+}
+.card1 {
     display: flex;
-    flex-direction: column;
-    background-color: burlywood;
-    color:white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7em;
     background-color: #1F2937;
 }
 
-.hero .card1{
-    display: flex;
-    flex-flow: nowrap column;
-    padding: 7em;
-    background-color: red;
-}
-
-.bigtext.left-content{
-    justify-content: flex-end;
-    background-color: lawngreen;
-}
-
-.card1 .right-content{
-    justify-content: flex-end;
-    padding: 3em;   
-    background-color: darkgrey;
-    width: 100px;
-    height: 100px;
-    flex-wrap: nowrap;
-}
-.card1 .bigtext{
-    font-size:48px;
+.bigtext{
+    font-size: 48px;
     font-weight: 900;
+    color: #F9FAF8;
 }
 
-
-.image{
-    padding: 3em;
-    background-color: darkgrey;
-    width:250px;
-}
-.boxes{
-    background-color: aqua;
+.littletext{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
-.card3{
-    background-color: cadetblue;
+.left-content {
+    max-width: 50%;
 }
 
-.card4{
-    background-color: royalblue;
+.right-content {
+    width: 40%;
+    text-align: center;
 }
 
-.footer{
-    background-color:deeppink;
+button{
+    background-color: #3882F6;
+    border:currentColor;
+    border-radius: 4px;
+    width:5em;
+    height: 2em;
+    color: #F9FAF8;
 }
