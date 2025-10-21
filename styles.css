@@ -27,21 +27,24 @@ body{
 }
 
 .hero .card1{
+    display: flex;
+    flex-flow: nowrap column;
+    padding: 7em;
     background-color: red;
-    flex-flow: wrap-reverse;
-    margin: 3em 14em 6em 13em;
 }
 
-.card1 .left-content{
-    flex-direction: column;
+.bigtext.left-content{
+    justify-content: flex-end;
+    background-color: lawngreen;
 }
 
 .card1 .right-content{
-    justify-items: flex-end;
-    padding: 3em;
+    justify-content: flex-end;
+    padding: 3em;   
     background-color: darkgrey;
     width: 100px;
     height: 100px;
+    flex-wrap: nowrap;
 }
 .card1 .bigtext{
     font-size:48px;
@@ -50,7 +53,6 @@ body{
 
 
 .image{
-    display: flex;
     padding: 3em;
     background-color: darkgrey;
     width:250px;
