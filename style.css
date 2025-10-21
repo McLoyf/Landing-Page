@@ -6,6 +6,7 @@ body{
     align-items: center;
     justify-content: space-around;
     padding: 1em;
+    COLOR: WHITE;
 }
 
 .nav a{
@@ -16,4 +17,34 @@ body{
 
 .nav a:hover{
     text-decoration: underline;
+}
+.nav{
+    background-color: #1F2937;
+}
+.card1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7em;
+    background-color: #1F2937;
+}
+
+.bigtext{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.littletext{
+    font-size: 18px;
+    color: #F9FAF8
+}
+
+.left-content {
+    max-width: 50%;
+}
+
+.right-content {
+    width: 40%;
+    text-align: center;
 }
