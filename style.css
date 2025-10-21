@@ -48,3 +48,33 @@ body{
     width: 40%;
     text-align: center;
 }
+.img{
+    height:3%;
+    width:3em
+}
+.boxes {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 2em; 
+}
+
+.box {
+  background-color: white;
+  border-radius: 8px;
+  width: 200px;
+  padding: 1em;
+  text-align: center;
+}
+
+.box img {
+  width: 10em;
+  height: 10em;
+  border-radius: 6px;
+  margin-bottom: 0.5em;
+}
+
+.subtext {
+  font-size: 14px;
+  color: #4b5563;
+}
