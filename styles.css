@@ -32,11 +32,13 @@ body{
 .bigtext{
     font-size: 48px;
     font-weight: 900;
+    margin: 0em 2em 0em 0em;
     color: #F9FAF8;
 }
 
 .littletext{
     font-size: 18px;
+    margin: 0em 7em 0em 0em;
     color: #E5E7EB;
 }
 
@@ -47,19 +49,36 @@ body{
 .right-content {
     width: 40%;
     text-align: center;
+    background-color: #4b5563;
+    padding: 9%;
+    color: #E5E7EB;
 }
 
 button{
     background-color: #3882F6;
     border:currentColor;
     border-radius: 4px;
-    width:5em;
+    width:7em;
     height: 2em;
+    color: #F9FAF8;
+    margin-top: 1em;
+}
+
+button:hover{
+    border: 2px solid #F9FAF8;
+    background-color: #4b5563;
     color: #F9FAF8;
 }
 .img{
     height:3%;
     width:3em
+}
+
+.card2top{
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: bolder;
 }
 .boxes {
   display: flex;
@@ -107,11 +126,11 @@ button{
     color: #1F2937;
 }
 .card4 {
-    margin: 4em 4em 4em 8em;
+    margin: 4em 13em 4em 13em;
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 6px;
-    padding: 2em;
+    padding: 2em 7em 2em 7em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -139,6 +158,19 @@ button{
     height: 2rem;
 }
 
+#secondSignUp:hover{
+    border: 2px solid #F9FAF8;
+    background-color: #4b5563;
+    color: #F9FAF8;
+}
+
 .footer{
-    
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 2em 2em 2em 2em;
+    font-size: small;
+}
+
+.copyright{
+    justify-self: center;
 }
