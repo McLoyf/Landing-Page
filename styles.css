@@ -106,3 +106,39 @@ button{
     font-weight: bold;
     color: #1F2937;
 }
+.card4 {
+    margin: 4em 4em 4em 8em;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call-action {
+    margin: 0;
+}
+
+.call {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.signuptext {
+    font-size: small;
+    opacity: 0.9;
+}
+
+#secondSignUp {
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+    width:5rem;
+    height: 2rem;
+}
+
+.footer{
+    
+}
